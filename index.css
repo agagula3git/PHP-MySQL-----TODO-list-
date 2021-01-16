@@ -1,0 +1,87 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #000000da;
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bolder;
+    color: #fff;
+    height: 2em;
+    justify-content: center;
+}
+
+.taskForm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+input[type=text]{
+    /*flex: 1;*/
+    width: 75%;
+    font-size: 12pt;
+    font-weight: lighter;
+    color: #000;
+    height: 2em;
+    border-radius: 5px;
+    border: 1px groove rgba(0, 0, 0, 0.842);
+}
+
+.subBtn{
+    font-size: 10pt;
+    font-weight: bolder;
+    height: 2em;
+    color: #fff;
+    background-color: #000000da;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.main{
+    background-color: #aaa;
+    height: 100vh;
+}
+.tasks{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+}
+
+table{
+    width: 80%;
+    padding: 10px;
+}
+
+tr{
+    background-color: rgba(33, 102, 33, 0.76);
+}
+
+#taskId{
+    width: 3%;
+    font-size: 12pt;
+    height: 1.5em;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+#taskDesc{
+    width: 85%;
+    font-size: 12pt;
+    font-weight: lighter;
+    height: 1.5em;
+    border-radius: 5px;
+}
+
+#taskDate{ 
+    font-size: 12pt;
+    height: 1.5em;
+    border-radius: 5px;
+}
+
+#trash{
+    border-radius: 5px;
+    background-color: #aaa;
+}
